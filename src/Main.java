@@ -12,18 +12,18 @@ public class Main {
 
         System.out.println("___Задача №2___");
         int clientOS2 = 1;
-        int yearOfIssue = 2017;
+        int clientDeviceYear = 2015;
 
         switch (clientOS2) {
             case 0:
-                if (yearOfIssue <= 2015 ) {
+                if (clientDeviceYear <= 2015 ) {
                     System.out.println("Установите облегченную версию приложения для iOS по ссылке");
                     break; }
                 else  {
                     System.out.println("Установите версию приложения для iOS по ссылке");
                     break; }
             case 1:
-                if (yearOfIssue <= 2015 ) {
+                if (clientDeviceYear <= 2015 ) {
                     System.out.println("Установите облегченную версию приложения для Android по ссылке");
                     break; }
                 else {
@@ -69,7 +69,7 @@ public class Main {
         }
 
         System.out.println("___Задача №5___");
-        int monthNumber = 13;
+        int monthNumber = 12;
 
         switch (monthNumber) {
             case 1:
